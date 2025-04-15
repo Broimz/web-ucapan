@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Happy Birthday</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+  <body>
+    
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h4> Selamat Ulang Tahun</h4>
+            <h1>Ika Ayu Vadhilla</h1>
+            <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Lanjutkeun</a>
+        </main>
+    </section>
+
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Happy Birthday</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Happy Birthday</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video">Video</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Halo Sayang</h2>
+            <h3>Ini ucapan dan doa dari aku yaa hehe</h3>
+            <p> Selamat ulang tahun sayangku, semoga kamu sehat selalu yang terpenting dan selalu bahagia biar bisa mencapai apa yang ingin kamu mau. Maaf ya aku belum bisa jadi sesempurna itu, satu lagi deh hehe. Semoga kita bisa langgeng terus dan bisa lanjut ke hubungan yang lebih serius lagi aamiin. Ini kata katanya kurang panjang woy wwwk tambahin teks asal aja deh biar webnya gak terlalu kosong wkwkwk</p>
+          </div>
+        </div>
+
+        <div class="row foto">
+          <div class="col-lg-6">
+            <span class="heart"><i class="bi bi-heart-fill"></i></span>
+            <div class="row">
+              <div class="col-4">
+                <img src="img/foto-home.png" alt="Bagus Ibrahim" class="img-responsive rounded-circle">
+              </div>
+              <div class="col-8">
+                <h3>Bagus Ibrahim</h3>
+                <p>Sang Penguasa Kegelapan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h3>Foto Ayang</h3>
+          </div>
+        </div>
+
+
+        <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/gallery/1.jpg" data-toggle="lightbox" data-caption="Foto Terkeren" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/1.png" alt="Foto Terkeren" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/2.jpg" data-toggle="lightbox" data-caption="Foto favoritku" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/2.png" alt="Foto favoritku" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/3.jpg" data-toggle="lightbox" data-caption="Maem Cilung" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/3.jpg" alt="Maem Cilung" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/4.jpg" data-toggle="lightbox" data-caption="Main Trampolin" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/4.jpg" alt="Main Trampolin" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/5.jpg" data-toggle="lightbox" data-caption="Mau makan ketoprak" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/5.jpg" alt="Mau makan ketoprak" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/6.jpg" data-toggle="lightbox" data-caption="Cimory bogor" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/6.png" alt="Cimory bogor" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/7.jpg" data-toggle="lightbox" data-caption="Lagi shift malam" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/7.png" alt="Lagi shift malam" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/8.jpg" data-toggle="lightbox" data-caption="Main kerumah aku" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/8.png" alt="Main kerumah aku" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/9.jpg" data-toggle="lightbox" data-caption="Touring tercape" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/9.png" alt="Touring tercape" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/10.jpg" data-toggle="lightbox" data-caption="Otw Masjid Al jabar" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/10.png" alt="Otw Masjid Al jabar" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/11.jpg" data-toggle="lightbox" data-caption="Melewati hutan rimba" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/11.png" alt="Melewati hutan rimba" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/12.jpg" data-toggle="lightbox" data-caption="Saatnya melamar kerja" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/12.png" alt="Saatnya melamar kerja" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/13.jpg" data-toggle="lightbox" data-caption="Nyobain pasmina" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/13.png" alt="Nyobain pasmina" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/14.jpg" data-toggle="lightbox" data-caption="Pakai Kacamata" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/14.png" alt="Pakai Kacamata" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/15.jpg" data-toggle="lightbox" data-caption="Otw Kampung" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/15.png" alt="Otw Kampung" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/16.jpg" data-toggle="lightbox" data-caption="Idul Fitri 2024" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/16.png" alt="Idul Fitri 2024" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/17.jpg" data-toggle="lightbox" data-caption="Main ke Karawang" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/17.png" alt="Main ke Karawang" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/18.jpg" data-toggle="lightbox" data-caption="Ini di Dieng" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/18.jpg" alt="Ini di Dieng" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/19.jpg" data-toggle="lightbox" data-caption="Masih di Dieng" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/19.jpg" alt="Masih di Dieng" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/20.jpg" data-toggle="lightbox" data-caption="Mau ke kampus" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/20.png" alt="Mau ke kampus" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/21.jpg" data-toggle="lightbox" data-caption="Nonton bioskop dulu" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/21.png" alt="Nonton bioskop dulu" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/22.jpg" data-toggle="lightbox" data-caption="Lagi dengerin seminar" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/22.png" alt="Lagi dengerin seminar" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/23.jpg" data-toggle="lightbox" data-caption="Oeoeoe" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/23.png" alt="Oeoeoe" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <section id="video" class="video">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <h3>Video Kenangan</h3>
+            </div>
+          </div>
+      
+          <div class="row justify-content-center">
+            <div class="col mt-3">
+              <video controls width="100%">
+                <source src="video/video-tes.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="audio-container">
+        <audio id="song" autoplay loop>
+          <source src="audio/Happy Birthday (Piano Version).mp3" type="audio/mp3">
+        </audio>
+        
+        <div class="audio-icon-wrapper" style="display: none;">
+          <i class="bi bi-disc"></i>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+      const audioIcon = document.querySelector('.audio-icon-wrapper i');
+      const song = document.querySelector('#song');
+      const video = document.querySelector('video');
+      let isplaying = false;
+      
+      function disableScroll(){
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft
+        
+        window.onscroll = function(){
+          window.scrollTo(scrollTop,scrollLeft);
+        }
+        
+        rootElement.style.scrollBehavior = 'auto';
+      }
+      function enableScroll() {
+        window.onscroll = function(){ }
+        rootElement.style.scrollBehavior = 'smooth';
+        //localStorage.setItem('opened', 'true');
+        playaudio();
+      }
+
+      function playaudio() {
+        song.volume = 0.5;
+        audioIconWrapper.style.display = 'flex';
+        song.play();
+        isplaying = true;
+      }
+
+      audioIconWrapper.onclick = function(){
+        if(isplaying){
+          song.pause();
+          audioIcon.classList.remove('bi-disc');
+          audioIcon.classList.add('bi-pause-circle');
+        } else{
+          song.play();
+          audioIcon.classList.add('bi-disc');
+          audioIcon.classList.remove('bi-pause-circle');
+        }
+
+        isplaying = !isplaying;
+      }
+
+      video.addEventListener('play', function() {
+      song.pause();
+      isplaying = false;
+      audioIcon.classList.remove('bi-disc');
+      audioIcon.classList.add('bi-pause-circle');
+  });
+
+      video.addEventListener('pause', function() {
+      song.play();
+      isplaying = true;
+      audioIcon.classList.add('bi-disc');
+      audioIcon.classList.remove('bi-pause-circle');
+  });
+
+      //if (!localStorage.getItem('opened')){
+      //disableScroll();
+      //}
+      disableScroll();
+
+    </script>
+    <script>
+      const hamburger = document.querySelector('.navbar-toggler');
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function(){
+        stickyTop.style.overflow = 'visible'
+      });
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function(){
+        stickyTop.style.overflow = 'hidden'
+      });
+    </script>
+    
+  </body>
+</html>

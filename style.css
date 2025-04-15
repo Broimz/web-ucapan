@@ -1,0 +1,230 @@
+:root{
+    --pink: #f14e95;
+    --bg: #000000;
+    --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+.mynavbar{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(4px);
+}
+
+.mynavbar .offcanvas{
+    height: 100vh;
+}
+
+.mynavbar .navbar-brand,
+ .mynavbar .offcanvas-title{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--pink);
+
+}
+
+.mynavbar .nav-link{
+    text-transform: uppercase;
+}
+
+.home{
+    background-image: url(img/wallpaper-ultah.png);
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: -6rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}
+
+.home h2, .gallery h3{
+    color: var(--pink);
+    font-family: 'Sacramento';
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.home h3{
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.home p{
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.home .foto{
+    margin-top: 100px;
+}
+
+.home .foto h3{
+    font-family: 'Sacramento';
+    font-size: 2.4rem;
+    color: var(--bg);
+    position: absolute;
+    transform: translateY(50px);
+    
+}
+
+.home .foto p{
+    position: absolute;
+    transform: translateY(80px);
+}
+
+.home .foto img{
+    width: 100%;
+}
+
+.home .heart{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 60%;
+    transform: translateX(-75%) translateY(10px);
+}
+
+.home .heart i{
+    margin: auto;
+    color: var(--pink);
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
+    min-height: 4000px;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bg-wallpaper.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.hero{
+    position: relative;
+    min-height: 100vh;
+}
+
+.hero h1, .hero h4{
+    text-shadow: var(--shadow);
+}
+
+.hero h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    font-weight: bold ;
+}
+
+.hero h4{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.hero a{
+    color: var(--pink);
+    background-color: white;
+}
+
+.hero a:hover{
+    background-color: var(--pink);
+    color:white
+}
+
+.gallery{
+    background-color: #f5f5f5;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 177.78%;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.audio-icon-wrapper{
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    animation: rotating 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+@keyframes rotating {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* Media Query */
+/* Extra Large */
+@media (max-width:1200px){
+    .home .heart{
+        transform: translateX(-80%) translateY(10px);
+    }
+    .home .foto h3{
+        position: absolute;
+        transform: translateY(50px);
+    }
+    .home .foto p{
+        position: absolute;
+        transform: translateY(80px);
+    }
+}
+/* Laptop */
+@media (max-width:992px) {
+    html{
+        font-size: 75%;
+    }
+    
+}
+
+/* Mobile Phone */
+@media (max-width:576px){
+    html{
+        font-size: 60%;
+    }
+}
+
+.mynavbar .nav-link{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.sticky-top{
+    overflow: hidden;
+}
